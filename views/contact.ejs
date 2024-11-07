@@ -1,0 +1,29 @@
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
+<body>
+
+        
+    <h1 class="pagename">Contact Me</h1>
+    <div class="form">
+    <form action="mailto:ziyad.khan@ontariotechu.net" ?subject="Signup" Form method="post" enctype="text/plain" name="Form">
+    <p>
+        
+        <input class="text-prompt"type="text"name="name" placeholder="Name" size="32" required>
+    </p>
+    <p>
+        
+        <input class="text-prompt" type="email"name="email" placeholder="Email" size="40" required>
+    </p>
+    <p>
+        
+        <input class="text-prompt" type="tel"name="phone" placeholder="Cell Phone number" size="32" required>
+    </p>
+    <p><input type="submit" value="click here to submit form"/></p>
+</form>
+</div>
+<div class="button-holder">
+<a class="link-btn"target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">LINKEDIN</a>
+<a class="link-btn"target="_blank" rel="noopener noreferrer" href="https://github.com/ZiyadK1520">GITHUB</a>
+</div>
+<%- include partials/bottom_nav.ejs %>
+<%- include partials/footer.ejs %>
